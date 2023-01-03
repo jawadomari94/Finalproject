@@ -4,8 +4,9 @@
     font-family: 'Josefin Sans',sans-serif;
     box-sizing: border-box;
 }
+
 ul li{
-    float:left;
+    float:right;
     list-style-type: none;
     padding-left: 50px;
     text-align: center;
