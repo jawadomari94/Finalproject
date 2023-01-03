@@ -33,3 +33,10 @@ header{
 .navbar a:hover{
     color: lightblue;
 }
+section{
+    padding: 100px 200px;
+}
+.main{
+    width:100px;
+    min-height: 100vh;
+}
