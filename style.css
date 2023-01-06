@@ -36,14 +36,17 @@ section{
     padding: 100px 200px;
 }
 .main{
-    background: linear-gradient(rgba(10, 10, 10, 0.295),rgb(24, 23, 23));
+    background: url(P.pic.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-attachment: fixed;
     width:100%;
     min-height: 100vh;
     display: flex;
     align-items: center;
 }
 .main h2{
-    color: #ffff;
+    color: rgb(48, 36, 36);
     font-size: 1.4em;
     font-weight: 400px;
 }
@@ -55,7 +58,7 @@ section{
     font-weight: 600;
 }
 .main h3{
-    color:#ffff ;
+    color:rgb(48, 36, 36);
     font-size: 2em;
     font-weight: 700;
     letter-spacing: 1px;
@@ -123,4 +126,29 @@ section{
     font-size: 1.2em;
     font-weight: 700;
     margin: 10px;
+}
+.projects{
+    background-color: #000016;
+}
+.projects .content{
+    margin-top: 30px;
+}
+.project-card{
+    background-color: #ffff;
+    border:1px solid #ffff;
+    min-height: 14em;
+    width: 23em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7s ease;
+}
+.project-card:hover{
+    transform: scale(1.1);
+}
+.project-card:hover .project-image{
+    opacity: 0.9;
+}
+.project-image img{
+    width: 100%;
 }
