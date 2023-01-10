@@ -83,7 +83,7 @@ section{
     transform: scale(1.1);
 }
 .social-icons a{
-    color: #ffff;
+    color: #000016;
     font-size: 1.7em;
     padding-left: 30px;
 }
@@ -195,11 +195,35 @@ section{
     color: #3a6cf4;
 }
 .footer .social-icons a{
+    color: #ffff;
     font-size: 1.3em;
     padding: 0px 12px 0px 0px;
 }
-@media (max-width:1366px){
+@media (max-width:1023px){
     header{
         padding: 12px 20px;
     }
+    .title{
+        font-size: 1.5em;
+    }
+    section{
+        padding: 80px 20px;
+    }
+    .main h2{
+        font-size: 1em;
+    }
+    .main h3{
+        font-size: 1.6em;
+    }
+    .content{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
+@media (max-width:641px){
+    body{
+        font-size: 0.8em;
+    }
+    
 }
