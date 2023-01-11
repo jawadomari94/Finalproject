@@ -237,6 +237,12 @@ section{
     body{
         font-size: 10px;
     }
+    .main h2{
+        font-size: 0.5em;
+    }
+    .main h3{
+        font-size: 1em;
+    }
     .navbar a{
         padding-left: 10px;
     }
